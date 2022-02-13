@@ -3,8 +3,7 @@
 **basic**
 ```Python3
 bc = BarChart()
-  
-print('-' * size.columns)
+
 print(bc.pformat({'a': 1, 'b': 2, 'c': 3}))
 ```
 ```text
@@ -19,7 +18,6 @@ bc = BarChart(
     fields = ['a', 'b'],
 )   
 
-print('-' * size.columns)
 print(bc.pformat({'a': 1, 'b': 2, 'c': 3}))
 ```
 ```text
@@ -33,7 +31,6 @@ bc = BarChart(
     title = 'Example'
 )
 
-print('-' * size.columns)
 print(bc.pformat({'a': 1, 'b': 2, 'c': 3}))
 ```
 ```text
@@ -48,7 +45,7 @@ c[3]: ***********************o
 bc = BarChart(
     date_fmt = '[%D]'   
 )
-print('-' * size.columns)
+
 print(bc.pformat({'a': 1, 'b': 2, 'c': 3}))
 ```
 ```text
@@ -63,7 +60,7 @@ bc = BarChart(
     date_fmt = '[%D]',
     prefix_every_line = False
 )
-print('-' * size.columns)
+
 print(bc.pformat({'a': 1, 'b': 2, 'c': 3}))
 ```
 ```text
@@ -77,7 +74,7 @@ print(bc.pformat({'a': 1, 'b': 2, 'c': 3}))
 bc = BarChart(
     cols = 60 
 )
-print('-' * size.columns)
+
 print(bc.pformat({'a': 1, 'b': 2, 'c': 3}))
 ```
 ```text
@@ -93,7 +90,6 @@ bc = BarChart(
     cols = 20
 )
 
-print('-' * size.columns) 
 print(bc.pformat({'a': 1, 'b': 2, 'c': 3}))
 ```
 ```text
